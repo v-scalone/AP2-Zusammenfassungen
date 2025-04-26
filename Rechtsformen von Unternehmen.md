@@ -12,16 +12,12 @@
 | GmbH & Co. KG     | -"- und Compagnie Kommanditgesellschaft |
 | Genossenschaft    | Genossenschaft                          |
 | Einzelunternehmen | Einzelunternehmen                       |
----
 
 
 
 ---
-
-![[Pasted image 20250420143227.png]]
+![bild](Bilder\Pasted_image_20250420143227.png)
 
 ---
 
-![[Pasted image 20250420143312.png]]
-
-
+![bild](Bilder\Pasted_image_20250420143312.png)
