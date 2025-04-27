@@ -12,3 +12,19 @@
 - Richtigkeit, Sicherheit, Interoperability
 **Benutzbarkeit:**
 - Attraktiv, Bedienbar, Erlernbar, Verständlich
+
+---
+# ISO/IEC 27001 - IT-Sicherheit
+**Ziel:** 
+- Schutz von Vertraulichkeit, Integrität und Verfügbarkeit von Informationen.
+**Inhalt:** 
+- Anforderungen an den Aufbau, Betrieb, Überwachung und Verbesserung eines ISMS.
+**Kernbestandteile:** 
+- Risikomanagement
+- Sicherheitsrichtlinien
+- organisatorische Maßnahmen
+- physische und technische Sicherheitskontrollen.
+**Typische Controls:** 
+- Zugriffskontrolle
+- Kryptografie
+- Backup-Strategien
