@@ -11,7 +11,18 @@
 
 ---
 # Gestaltungselemente
-
+- **Buttons**
+- **Textfelder**
+- **Dropdowns**
 
 ---
 # Barrierefreiheit
+Barrierefreiheit bei der Softwareentwicklung ist wichtig, um allen Menschen Zugang zu dieser zu Gewährleisten.
+
+**Elemente Barrierefreier Software**
+- visuelle Kontraste 
+- klare Trennungen der Bildebenen
+- Bedienbarkeit über die Tastatur, auch Braille-Tastaturen
+- Fehlerfreie Darstellung auf allen Geräten, mit Screenreadern
+- Verwendung oder Option einfacher Sprache
+- Ausformulierung und Graphische Darstellungen

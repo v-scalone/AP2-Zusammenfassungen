@@ -8,7 +8,7 @@
 - [[Anforderungsanalyse]]
 - [[Softwarearchitektur]]
 - [[IT-Sicherheit]]
-- [[UI - UX TODO]]
+- [[UI - UX]]
 - [[Testing, Betrieb & Open Source]]
 - [[Wichtige Standards]]
 
