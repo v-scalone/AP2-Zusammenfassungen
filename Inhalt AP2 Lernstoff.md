@@ -1,13 +1,13 @@
 # Allgemein (Fachrichtung/Prüfungs Unabhändig)
 - [[UML-Diagramme - Aktivitätsdia., Zustandsdia., Klassendia., PAP, Struktogramm, Use-Case Dia. 1]]
 - [[VM vs. VDI]]
-# Prüfung 1: Planen eines Softwareproduktes
+- [[Cloud]]
 - [[Projektmanagement]]
 - [[Datenschutz - DSGVO]]
+# Prüfung 1: Planen eines Softwareproduktes
 - [[Anforderungsanalyse]]
 - [[Softwarearchitektur TODO]]
 - [[IT-Sicherheit]]
-- [[Cloud]]
 - [[UI - UX TODO]]
 - [[Testing, Betrieb & Open Source]]
 - [[Wichtige Standards]]
