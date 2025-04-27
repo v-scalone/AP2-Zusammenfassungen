@@ -9,7 +9,7 @@
 - [[Cloud]]
 - [[UI - UX TODO]]
 - [[Testing, Betrieb & Open Source]]
-- [[Wichtige Standards TODO?]]
+- [[Wichtige Standards]]
 
 # Prüfung 2: Entwicklung und Umsetzung von Algorithmen
 // TODO
