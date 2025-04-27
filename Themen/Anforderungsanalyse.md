@@ -35,3 +35,32 @@ Das Akronym bezieht sich auf eine User Story (U.S.) und steht für:
 **E**stimatable - Der Aufwand kann vom Team eingeschätzt werden.
 **S**mall - Sie sollte in einem Sprint umsetzbar sein
 **T**estable - Es lassen sich klare Akzeptanzkriterien definieren.
+
+---
+# Make-or-Buy-Entscheidungen
+Um zu entscheiden, ob eine Software in-house entwickelt oder gekauft werden soll, kann wie folgt vorgegangen werden:
+
+**Operative vs Strategische Entscheidungen**
+*Operativ:* vor allem kurzfristige Ziele, z.B. Kosten oder Fristeneinhaltung
+*Strategisch:* langfristige Ziele. Was soll das Unternehmen selbst machen? Wie soll es aufgestellt sein?
+
+**Faktoren Betrachten**
+- **Zielsetzung**
+	- Beeinflusst die Entscheidungsfaktoren
+	- z.B. Wirtschaftlich? Kosten wichtiger
+- **Kosten**
+    - *Make:* Material, Personal, Räumlichkeiten etc.
+    - *operativ:* kurzfristige Kostenersparnis durch Kauf
+    - *Buy:* Beschaffungskosten
+    - *strategisch:* langfristige Kostenersparnis bei Selbstentwicklung
+- **Know-How**
+    - *operativ:* ist das notwendige Know-How schon vorhanden?
+    - *strategisch:* möchte das Unternehmen das Know-How aufbauen?
+- **Qualität**
+    - *+ Make:* Interne Qualitätssicherung und Überwachung
+    - *- Make:* Interner Qualitätsverlust (z.B. durch Abgang Erfahrener Mitarbeiter) könnte Projekt bremsen
+- **Ressourcen**
+    - Haben wir genug Ressourcen um das Projekt selbst umzusetzen?
+- **Risiken**
+	- *Make:* Ausfallzeiten, Personal etc.
+	- *Buy:* Dienstleisterausfall, Abhängigkeit
