@@ -4,6 +4,7 @@
 →Die Testfälle werden aus dem Code selbst her geleitet, nicht aus den Softwarespezifikationen/Anforderungen.
 → Testen von Teilkomponenten
 → Werden von Entwicklungsteam geschrieben
+→ Zeilenüberdeckungstests
 
 **GreyBox Testing**
 → Mischung von Black und White Box
@@ -13,6 +14,8 @@
 → Die Testfälle werden aus der Softwarespezifikation hergeleitet
 → Testen des Kompletten Systems auf richtiges Ergebnis
 → können von dediziertem QA Team durchgeführt werden
+→ [[Testing, Betrieb & Open Source#Äquivalenzklassenbildung|Äquivalenzklassenbildung]]
+→ [weitere Infos, Äquivalenzklassenbildung](https://qcademy.de/aequivalenzklassenbildung-2/)
 
 **Last- & Performance-Tests**
 → Zählen zu Systemtests
@@ -28,6 +31,36 @@ In einer Anwendung existieren Nutzer. Ein Nutzer war 2 Jahre lang inaktiv. Die A
 Diese Logik ist in einem E2E-Test sehr schwer abzutesten, da ein E2E-Test keine Einsicht in die "inaktiv"-Logik hat.
 Ein Unit-Test hingegen kann einen Testnutzer erstellen, das Datum der Erstellung auf vor 2 Jahre mocken und darauf dann einen Unittest durchführen.
 In diesem Beispiel ist eine "inaktiv"-Logik nur wirklich von einem Unittest abzutesten. Ein E2E-Test könnte nur abtesten ob eine Authentifizierung-Email verschickt oder angekommen ist.
+
+#### Anweisungs- und Zweigüberdeckungstests
+Diese Tests dienen dazu, die Testabdeckung durch Unittests zu messen.
+
+**Anweisungsüberdeckungstests**
+Sie testen jede Anweisung im Code mindestens ein mal. Dann ist vollständige Anweisungsüberdeckung erreicht. Sie werden selten als Hauptwerkzeug in einem Vollständigkeitstest angewendet weil sie zu schwach sind.
+
+**Zweigüberdeckungstests**
+Sie testen jeden Zweig im Code mindestens ein mal. Somit sind mehr Testfälle notwendig für vollständige Abdeckung.
+
+*Beispiel:*
+```java
+String output = "Hello World!";
+if (x > y) {
+	output = "Hello Mom!";
+}
+System.out.println(output);
+```
+Um die vollständige Anweisungsüberdeckung zu erreichen ist nur ein Test Notwendig.
+Um die Vollständige Zweigüberdeckung zu erreichen werden zwei Tests benötigt. 
+(`x > y` und `x < y`)
+
+#### Äquivalenzklassenbildung
+Beim Black-Box-Testing kann es Sinn machen, sich gleich Verhaltende Eingaben in Äquivalenzklassen zu Gruppieren. Diese sollten sich im Zusammenhang des Testes gleich verhalten.
+
+**Beispiel**: Test einer Alterskontrolle für Alkoholkauf
+*Äquivalenzklassen*:
+- unter 16 Jährige → kein Verkauf
+- 16 und 17 Jährige → nur Bier und Wein
+- 18+ → alles
 
 ---
 # CI/CD
