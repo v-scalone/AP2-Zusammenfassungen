@@ -3,6 +3,7 @@
 - [[VM vs. VDI]]
 # Prüfung 1: Planen eines Softwareproduktes
 - [[Projektmanagement]]
+- [[Datenschutz - DSGVO]]
 - [[Anforderungsanalyse]]
 - [[Softwarearchitektur TODO]]
 - [[IT-Sicherheit]]
