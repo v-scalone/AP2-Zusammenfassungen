@@ -1,3 +1,19 @@
+# Vorgehen
+**Schritt 1: Rollen Zuweisen**
+Rollen im Projekt werden zugewiesen, dazu ist auch eine [[Projektmanagement#Stakeholder-Analyse|Stakeholder-Analyse]] hilfreich.
+
+**Schritt 2: Mit Stakeholder reden**
+Was sind Ziele und Erfolgsbedingungen für das Projekt? Was macht ihnen Sorgen?
+
+**Schritt 3: Annahmen und Anforderungen Auflisten**
+Zeitplan aufstellen, Projektmitglieder festlegen, Risiken auflisten.
+SMART Überprüfen
+
+**Schritt 4: Zustimmung Einholen**
+Scope Creep verhindern - Grenzen klar benennen
+Von allen wichtigen Beteiligten Zustimmung einholen
+
+---
 # Funktionale vs nicht-Funktionale
 **Funktionale Anforderungen:** *Was* muss die Software können?
 z.B. Die Software muss den Body-Mass-Index basierend auf einer gegebenen Formel auf eine Nachkommastelle genau berechnen.
