@@ -6,7 +6,7 @@
 - [[Datenschutz - DSGVO]]
 # Prüfung 1: Planen eines Softwareproduktes
 - [[Anforderungsanalyse]]
-- [[Softwarearchitektur TODO]]
+- [[Softwarearchitektur]]
 - [[IT-Sicherheit]]
 - [[UI - UX TODO]]
 - [[Testing, Betrieb & Open Source]]
