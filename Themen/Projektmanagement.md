@@ -1,16 +1,16 @@
 # Merkmale eines Projektes:
-- Einzigartigkeit
+- **Einzigartigkeit**
 	- keine Routineaufgabe, Ziel ist einzigartig und neu.
 	- jedes Projekt wird per Definition zum ersten und letzten mal durchgeführt
-- Zeitbegrenzung
+- **Zeitbegrenzung**
 	- es gibt einen klaren Projektbeginn und ein klares Ende (Datiert)
-- Klare Zieldefinition
+- **Klare Zieldefinition**
 	- die Zielvorstellung und Erwartung ist klar Definiert 
-- Ressourcen Begrenzung
+- **Ressourcen Begrenzung**
 	- es gibt klar zugewiesene Ressourcen (personell, monetär, etc.)
-- Projektspezifische Organisation
+- **Projektspezifische Organisation**
 	- speziell zusammengestelltes Projektteam
-- Unsicherheit  und Risiko
+- **Unsicherheit und Risiko**
 	- aufgrund der Einzigartigkeit gibt es immer Risiken
 
 ---
