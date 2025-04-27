@@ -21,3 +21,17 @@ Unternehmen müssen jederzeit in der Lage sein, die Einhaltung der DSGVO nachzuw
 - Recht auf Auskunft
 - Recht auf Berichtigung
 - Recht auf Löschung/Vergessenwerden
+
+---
+# TOM - technisch organisatorische Maßnahmen
+Die DSGVO schreibt vor, dass technisch organisatorische Maßnahmen ergriffen werden müssen, um den Datenschutz zu gewährleisten.
+
+**Technische Maßnahmen** (siehe [[IT-Sicherheit#Schutzmaßnahmen|Schutzmaßnahmen]])
+- Keykarten
+- Sichere Passwörter und 2FA
+- Firewalls
+- …
+
+**Organisatorische Maßnahmen**
+- Schulungen und Workshops
+- Penetration Tests
