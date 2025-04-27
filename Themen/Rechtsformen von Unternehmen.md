@@ -16,8 +16,8 @@
 
 
 ---
-![bild](Bilder\Pasted_image_20250420143227.png)
+![bild](Pasted_image_20250420143227.png)
 
 ---
 
-![bild](Bilder\Pasted_image_20250420143312.png)
+![bild](Pasted_image_20250420143312.png)
