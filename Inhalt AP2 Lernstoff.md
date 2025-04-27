@@ -8,7 +8,7 @@
 - [[IT-Sicherheit TODO]]
 - [[Cloud]]
 - [[UI - UX TODO]]
-- [[Testing, Betrieb & Lizenzen TODO]]
+- [[Testing, Betrieb & Open Source]]
 - [[Wichtige Standards TODO?]]
 
 # Prüfung 2: Entwicklung und Umsetzung von Algorithmen
