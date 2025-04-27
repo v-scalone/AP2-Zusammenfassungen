@@ -1,5 +1,5 @@
 # Allgemein (Fachrichtung/Prüfungs Unabhändig)
-- [[UML-Diagramme - Aktivitätsdia., Zustandsdia., Klassendia., PAP, Struktogramm, Use-Case Dia. 1]]
+- [[UML-Diagramme - Aktivitätsdia., Zustandsdia., Klassendia., PAP, Struktogramm, Use-Case Dia. 1.pdf]]
 - [[VM vs. VDI]]
 - [[Cloud]]
 - [[Projektmanagement]]
@@ -16,8 +16,8 @@
 // TODO
 - [[Relationale Datenbank]]
 - [[Beziehungstypen - Assoziation und Abhängigkeit]]
-- [[Such-Algorithmen]]
-- [[Sortier-Algorithmen]]
+- [[Such-Algorithmen.pdf]]
+- [[Sortier-Algorithmen.pdf]]
 - [[XML]]
 
 
