@@ -5,7 +5,7 @@
 - [[Projektmanagement]]
 - [[Anforderungsanalyse]]
 - [[Softwarearchitektur TODO]]
-- [[IT-Sicherheit TODO]]
+- [[IT-Sicherheit]]
 - [[Cloud]]
 - [[UI - UX TODO]]
 - [[Testing, Betrieb & Open Source]]
