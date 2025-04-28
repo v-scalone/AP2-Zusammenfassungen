@@ -1,7 +1,18 @@
-# 3-Schichten-Architektur
+# Architekturen
+#### 3-Schichten-Architektur - [Details](https://www.ibm.com/de-de/topics/three-tier-architecture)
+Die 3-Schichten-Architektur ist eine lineare Softwarearchitektur. Alle Anfragen durchlaufen alle drei Schichten von oben bis unten.
+***Schichten:***
 1. **Darstellungsschicht/Benutzerschnittstelle:** Zum Beispiel die GUI oder  Weboberfläche. *Aufgaben:* Datendarstellung und Benutzereingaben entgegennehmen
 2. **Logikschicht:** Beinhaltet die Businesslogik
 3. **Datenschicht:** Die Datenbank
+
+#### MCV-Pattern (Model-View-Controller) - [Details](https://www.geeksforgeeks.org/mvc-design-pattern/)
+Die dreiteile MVC Architektur ist dreieckig angeordnet und sorgt für separation of concerns und  Modularität.
+***Komponenten:***
+- **Model:** Ist für die Daten und die Businesslogik zuständig.
+- **View:** Zeigt die Daten, die es vom *Model* erhält an und schickt user input an den *Controller*. 
+- **Controller:** Das Verbindungsstück zwischen *Model* und *View*. Validiert den user input und updated das *Model* und die *View*.
+![[ap2-MVC.png]]
 
 ---
 # Design Patterns
