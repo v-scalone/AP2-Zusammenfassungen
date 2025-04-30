@@ -11,9 +11,33 @@
 
 ---
 # Gestaltungselemente
-- **Buttons**
-- **Textfelder**
-- **Dropdowns**
+1. **Navigationselemente**:
+   - **Breadcrumbs**: Zeigen, wo in der Seitenhierarchie man sich befindet. Beispiel: `Camping > Zelte > Wurfzelte`
+   - **Menüs**: Dropdown-Menüs, Hamburger-Menüs und Seitennavigationen ermöglichen den Zugriff auf verschiedene Bereiche der Anwendung.
+   - **Suchleisten**: Ermöglichen Benutzern, schnell nach Inhalten zu suchen.
+
+2. **Eingabeelemente**:
+   - **Textfelder**: Für die Eingabe von Text, wie z.B. in Formularen.
+   - **Schaltflächen**: Zum Auslösen von Aktionen, wie z.B. "Senden" oder "Speichern".
+   - **Checkboxen und Radiobuttons**: Zur Auswahl von Optionen.
+   - **Schieberegler (Slider)**: Zur Auswahl eines Wertes innerhalb eines Bereichs.
+
+3. **Informationsanzeige**:
+   - **Karten (Cards)**: Zur strukturierten Anzeige von Inhalten.
+   - **Listen**: Zur Auflistung von Elementen, z.B. in einer To-Do-Liste.
+   - **Tabellen**: Zur Darstellung von Daten in Zeilen und Spalten.
+
+4. **Feedback-Elemente**:
+   - **Tooltips**: Kleine Pop-ups, die zusätzliche Informationen anzeigen, wenn der Benutzer über ein Element fährt.
+   - **Benachrichtigungen**: Pop-ups oder Banner, die den Benutzer über wichtige Ereignisse informieren.
+   - **Ladeanzeigen**: Wie Fortschrittsbalken oder Spinner, die anzeigen, dass eine Aktion im Gange ist.
+
+5. **Visuelle Hierarchie**:
+   - **Typografie**: Verschiedene Schriftgrößen, -stile und -farben, um Wichtigkeit und Hierarchie zu vermitteln.
+   - **Farben**: Zur Hervorhebung wichtiger Elemente und zur Verbesserung der Lesbarkeit.
+   - **Layout**: Anordnung von Elementen auf dem Bildschirm, um die Benutzerführung zu unterstützen.
+
+Diese Elemente tragen dazu bei, eine benutzerfreundliche und effiziente Oberfläche zu schaffen, die den Anforderungen und Erwartungen der Benutzer gerecht wird.
 
 ---
 # Barrierefreiheit
