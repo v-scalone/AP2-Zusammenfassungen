@@ -1,6 +1,6 @@
-# ISO/IEC 9126 - Wartbarkeit
+# ISO/IEC 25000 - Softwarequalität
 #### Merkmale:
-**Änderbarkeit:** 
+**Änderbarkeit/Wartbarkeit:** 
 - Analysierbar, Modifizierbar, Testbar, Stabil
 **Effizienz:**
 - Verbrauchsverhalten, Zeitverhalten
