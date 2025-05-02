@@ -19,6 +19,10 @@
 
 **Last- & Performance-Tests**
 → Zählen zu Systemtests
+→ Prüfen das Verhalten und die Leistung eines Systems unter verschiedenen Belastungsbedingungen. 
+→ Lasttests sichern Stabilität unter normaler und hoher Belastung. 
+→ Performancetests messen Reaktionszeiten, Durchsatzraten und Ressourcennutzung, um Engpässe zu identifizieren. 
+→ Helfen, Probleme frühzeitig zu erkennen und die Effizienz zu optimieren.
 
 **Testpyramide: E2E/System - Integration - Unit**
 ![[ap2-testpyramide.jpg]]
@@ -63,6 +67,11 @@ Beim Black-Box-Testing kann es Sinn machen, sich gleich Verhaltende Eingaben in 
 - 18+ → alles
 
 ---
+# Test Driven Development - TDD
+
+Beim TDD werden erst die Tests gemäß der Anforderungen geschrieben und im Anschluss der nötige Code, um die Tests “grün” zu machen. Dadurch kann verhindert werden, dass man an den Anforderungen vorbei Entwickelt.
+
+---
 # CI/CD
 CI/CD erhöht die Entwicklungsgeschwindigkeit und verringert menge der Bugs und Probleme bei der Bereitstellung der zu entwickelnden Software. Live-Systeme können laufend geupdated werden.
 
@@ -86,7 +95,7 @@ Eine Kundenanfrage wird also in ein Ticket geschrieben und kann nun Personen, Fu
 ---
 # Open Source Software
 Als *Open Source Software* wird jene Software bezeichnet, deren Quellcode öffentlich zugänglich und von jeder Person eingesehen, geändert und genutzt werden kann. Sie ist kostenlos.
-
+Trotzdem gibt es Lizenzen, die vorgeben wie die Software genutzt werden darf!
 **Vorteile:**
 - Kostenersparnis
 - Anpassbarkeit
