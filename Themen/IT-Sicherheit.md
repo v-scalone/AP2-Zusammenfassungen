@@ -59,9 +59,43 @@ TLS (Transport Layer Security) arbeitet nach dem Prinzip der **hybriden Verschl�
 - Passwörter nur beim IDP
 - IT-Sicherheit kann auf den IDP Fokussiert werden
 - erschwert Phishing-Attacken
+- bessere Übersicht über erteilte Rechte
+- Sicherheitsvorfälle leichter zu adressieren an Zentraler stelle
 **Nachteile:**
 - Verfügbarkeit aller Systeme hängt nun vom IDP ab
+- Ein Zugang → Zugriff auf viele Systeme
 
 **Umsetzung:**
 Meist mit OAuth2 oder SAML Tokens die dem Client ausgestellt werden. 
 Ein lokaler Passwort-Manager mit auto-fill zählt technisch gesehen auch als SSO-System.
+
+---
+# Verschlüsselung
+#### Symmetrisch vs Asymmetrisch
+**Symmetrisch:** Ein Schlüssel wird zum ver- und entschlüsseln Verwendet. Weniger rechenaufwendig und schneller. Dafür müssen aber beide Seiten den Schlüssel kennen.
+
+**Asymmetrisch:** Es gibt ein Schlüsselpaar. Von einem Schlüssel verschlüsselt können die Daten nur vom anderen entschlüsselt werden und andersrum. Public-Private Keys. Teurer aber kein Problem den public key über das Internet zu versenden.
+
+**Hybrid:** Asymmetrisches  Verfahren wird Verwendet, um sich über den symmetrischen Schlüssel auszutauschen. Das beste aus beiden Welten, Sicherheit und Geschwindigkeit. z.B. [[IT-Sicherheit#TLS/SSL"|TLS/SSL]]
+
+#### Bitlocker
+Festplattenverschlüsselung von Windows, das Sektorenweise mit [AES](https://de.wikipedia.org/wiki/Advanced_Encryption_Standard) Verschlüsselt.
+
+---
+# Zugriffskontrolle im Netzwerk
+**RADIUS** - Remote Authentication Dial-In User Service
+RADIUS (Remote Authentication Dial-In User Service) ist ein Netzwerkprotokoll, das zur Authentifizierung, Autorisierung und zur Buchhaltung (Accounting) von Benutzern verwendet wird, die auf ein Netzwerk zugreifen möchten. 
+- Zentraler Authentifizierungsserver
+- *Funktionsweise*:
+    - *Anfrage*: Ein Netzwerkgerät (NAS - Network Access Server) sendet eine Zugriffsanfrage an den RADIUS-Server.
+    - *Authentifizierung*: Der RADIUS-Server überprüft die Anmeldeinformationen des Benutzers.
+    - *Autorisierung*: Wenn die Authentifizierung erfolgreich ist, autorisiert der RADIUS-Server den Zugriff basierend auf den Benutzerrechten.
+    - *Accounting*: Der RADIUS-Server protokolliert die Sitzungsdaten für spätere Analyse und Abrechnung.
+
+**Kerberos**
+Kerberos ist ein weiterer zentraler Dienst für die Zugriffskontrolle. Es arbeitet mit Tickets und funktioniert als SSO-System.
+- *Funktionsweise*:
+    - *Authentifizierung*: Der Benutzer sendet eine Anfrage an den Authentifizierungsserver (AS) im KDC.
+    - *Ticket-Granting Ticket (TGT):* Der AS sendet ein TGT zurück, das der Benutzer verwenden kann, um weitere Tickets für den Zugriff auf verschiedene Dienste zu erhalten.
+    - *Service Ticket*: Der Benutzer sendet das TGT an den Ticket-Granting Server (TGS) im KDC, um ein Service Ticket für einen bestimmten Dienst zu erhalten.
+    - *Zugriff*: Mit dem Service Ticket kann der Benutzer auf den gewünschten Dienst zugreifen.
