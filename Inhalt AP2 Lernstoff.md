@@ -24,4 +24,4 @@
 
 # Prüfung 3: WiSo
 // TODO, mal schauen wie viel es wird, ist ja nur multiple choice…
-- [[Rechtsformen von Unternehmen]]
+- [[WiSo]]
