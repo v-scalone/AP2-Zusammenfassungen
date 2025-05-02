@@ -8,6 +8,7 @@
 # Prüfung 1: Planen eines Softwareproduktes
 - [[Anforderungsanalyse]]
 - [[Softwarearchitektur]]
+- [[Software Patterns]]
 - [[IT-Sicherheit]]
 - [[UI - UX]]
 - [[Testing, Betrieb & Open Source]]
