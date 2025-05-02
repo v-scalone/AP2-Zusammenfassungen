@@ -55,3 +55,47 @@ Nicht-relationale Datenbanken, auch NoSQL genannt basieren nicht auf Tabellen so
 - Document Store (z.B. Elasticsearch) können anhand des Keys oder der Metadaten oder des Inhalts des Documents abgerufen werden 
 - Vektordatenbanken für Machine Learning und Datenclustering
 - Graphdatenbanken speichern Beziehungen mit Metadaten zwischen den Daten
+
+---
+# OOP - Begriffe
+**Kapselung** bedeutet, dass die internen Daten und Logiken eines Objektes von außen nur durch kontrollierte Schnittstellen erreichbar sind. Das dient dem Schutz der Daten und der Wartbarkeit und Flexibilität.
+
+**Polymorphie** bedeutet, dass hinter einer Variable eines Typs mehrere Verschiedene aber voneinander Abstammende Typen Stecken können. Eng verwandt mit dem Konzept der Vererbung.
+
+**Generische Klassen** ermöglichen es, eine Klasse mit allen möglichen Klassen operieren zu lassen. So kann in dem folgenden Beispiel die Box Objekte jeden Datentyps halten.
+```java
+public class Box<T> {
+    private T content;
+
+    public Box(T content) {
+        this.content = content;
+    }
+
+    public T getContent() {
+        return content;
+    }
+
+    public static void main(String[] args) {
+        Box<Integer> intBox = new Box<>(123);
+        Box<String> strBox = new Box<>("Hallo, Welt!");
+
+        System.out.println(intBox.getContent());  // Ausgabe: 123
+        System.out.println(strBox.getContent());  // Ausgabe: Hallo, Welt!
+    }
+}
+```
+
+---
+# Netzwerke
+#### Drahtlos
+**PAN** - Personal Area Network
+Elektronische Geräte in unmittelbarer Umgebung des Nutzers. 
+Bsp.: Bluetooth
+
+**Mesh**
+Alle Geräte sind miteinander Verbunden und können Daten untereinander Austauschen, ohne Zentralen Knoten (z.B. Router, Switch).
+Dadurch höhere Zuverlässigkeit.
+![[ap2_mesh_topology.avif]]
+#### Sonderformen
+**SAN - Storage Attached Network**
+Ein dediziertes Netzwerk für zentrale Speicherlösungen. Erweiterung des DAS (Direct Attached Storage).
