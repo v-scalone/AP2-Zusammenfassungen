@@ -25,6 +25,22 @@ Das Singleton-Pattern ist dazu da, um sicherzustellen, dass es von einer Klasse 
 #### Factory - [Details](https://refactoring.guru/design-patterns/factory-method)
 Eine Factory bietet Methoden zum erstellen von Instanzen einer Klasse. Dabei kann in den Factory-Methoden die Konfiguration der erzeugten Instanzen angepasst werden.
 
+More [[Software Patterns]]
+
+---
+# Rekursion vs Iteration
+Bei der Rekursion ruft sich die Methode selbst wieder auf, bei einer Iteration wird z.B. über eine Liste auf jedes Element etwas angewandt
+**Vorteile Rekursion:**
+- Einfacher und Lesbarer
+- Weniger Code
+- Natürlichere Modellierung
+
+**Nachteile Rekursion**
+- Stackoverflow/Performance
+- schwereres Debugging
+
+**Vor-/Nachteile von Iteration:** vice-versa
+
 ---
 # Datenbanktypen
 
