@@ -4,6 +4,7 @@
 - [[Cloud]]
 - [[Projektmanagement]]
 - [[Datenschutz - DSGVO]]
+- [[USV]]
 # Prüfung 1: Planen eines Softwareproduktes
 - [[Anforderungsanalyse]]
 - [[Softwarearchitektur]]
