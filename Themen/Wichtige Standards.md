@@ -28,3 +28,7 @@
 - Zugriffskontrolle
 - Kryptografie
 - Backup-Strategien
+
+---
+# ISO 9241-110 - UI/X, Mensch-Computer-Interaktion
+[Inhalte](https://www.weka-manager-ce.de/betriebsanleitung/grundsaetze-dialoggestaltung-iso-9241-110/)

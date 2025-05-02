@@ -39,6 +39,13 @@
 
 Diese Elemente tragen dazu bei, eine benutzerfreundliche und effiziente Oberfläche zu schaffen, die den Anforderungen und Erwartungen der Benutzer gerecht wird.
 
+### Interaktionen - Norm
+[[Wichtige Standards#ISO 9241-110 - UI/X, Mensch-Computer-Interaktion|ISO 9241-110 - UI/X, Mensch-Computer-Interaktion]]
+- Nach Eingabe weniger Zeichen werden Suchvorschläge angezeigt, bei refined search sogar solche, die von der eingegebenen Zeichenfolge abweichen (search box with auto complete and refined search).
+- Zeigt an, wie viele Schritte noch zu gehen sind, bis die Aufgabe erledigt ist (steps left).
+- Der Benutzer kann z. B. erst einmal seinen Einkaufskorb füllen und muss sich erst registrieren bzw. einloggen, wenn er zur Kasse geht (lazy registration)
+- etc.
+
 ---
 # Barrierefreiheit
 Barrierefreiheit bei der Softwareentwicklung ist wichtig, um allen Menschen Zugang zu dieser zu Gewährleisten.
