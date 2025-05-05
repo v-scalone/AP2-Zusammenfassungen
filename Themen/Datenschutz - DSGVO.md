@@ -21,6 +21,8 @@ Unternehmen müssen jederzeit in der Lage sein, die Einhaltung der DSGVO nachzuw
 - Recht auf Auskunft
 - Recht auf Berichtigung
 - Recht auf Löschung/Vergessenwerden
+- Recht auf Übertragbarkeit
+- Recht auf Enschränkung
 
 ---
 # TOM - technisch organisatorische Maßnahmen
