@@ -27,6 +27,11 @@ Das Observer Pattern regelt eine Beziehung zwischen einem **Subjekt** (z. B. ein
 **Vorteil**:  
 Die lose Kopplung sorgt dafür, dass Subjekt und Beobachter unabhängig voneinander arbeiten können. Die Beobachter reagieren automatisch auf Änderungen des Subjekts.
 
+**Alternative: Databinding**
+Als Datenbindung (engl. Data Binding) bezeichnet man z. B. die automatische Weitergabe von Daten von einem Datenobjekt an ein Steuer-
+elementobjekt (Viewobjekt) einer Benutzeroberfläche und umgekehrt.
+(vgl. AP2, GA1 FiAE)
+
 ---
 # **Factory & Abstract Factory**
 
