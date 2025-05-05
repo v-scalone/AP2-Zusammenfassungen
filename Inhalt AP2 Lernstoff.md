@@ -15,12 +15,12 @@
 - [[Wichtige Standards]]
 
 # Prüfung 2: Entwicklung und Umsetzung von Algorithmen
-// TODO
 - [[Relationale Datenbank]]
 - [[Beziehungstypen - Assoziation und Abhängigkeit]]
 - [[Such-Algorithmen.pdf]]
 - [[Sortier-Algorithmen.pdf]]
 - [[XML]]
+- [[ODBC]]
 
 
 # Prüfung 3: WiSo
