@@ -30,6 +30,17 @@ $$EK Rentabiliät = (Gewinnanteil * 100)/Stammeinlage$$
 **Beispiel:**
 $$EK Rentabiliät = (75.000 * 100)/600.000 = 12,50\%$$
 
+*Hinweis:* gleiche Formel für Prozentuale Abweichung von Kosten (z.B. Vergleich Darlehen <→ Leasing)
+```
+Kosten Darlehen: 100.000€
+Kosten Leasing: 123.000€
+Abweichung: 23.000€
+```
+$$Abweichung Prozent = (Abweichung * 100) / KostenGünstigeres$$
+$$Abweichung Prozent = (23.000 * 100) / 100.000 = 23\%$$
+
+
+
 ---
 # **Mantelvertrag**
 
