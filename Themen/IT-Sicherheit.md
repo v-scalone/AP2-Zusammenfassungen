@@ -6,6 +6,13 @@
 - *Authentizität* – Sicherstellung der Echtheit von Daten und Identitäten
 - *Verbindlichkeit* – Nachweisbarkeit von Aktionen und Transaktionen
 
+**CIA - 3+1**
+**C**onfidentiality
+**I**ntegrity
+**A**vailability
+\+ Authenticity
+
+
 ---
 # Schutzmaßnahmen
 **Passwörter:** 
